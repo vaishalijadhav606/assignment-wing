@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 20px;
-    /* background-color: gray; */
+    font-family: 'Poppins', sans-serif;
 }
 .main-container {
     background-color: #fff;
     width: 45%;
-    padding: 10px;
+    padding: 3px 8px;
     border-radius: 10px;
-    box-shadow: 1px 4px 5px #7c7272;
+    box-shadow: 0px 1px 5px #7c7272;
     justify-content: space-between;
     border-width: 3px;
     border-style: solid;
@@ -29,9 +29,8 @@ body {
 }
 .change-icon-container {
     background-color: #e7e5e5;
-    margin-right: 10px;
-    padding: 5px 8px;
-    border-radius: 4px;
+    padding: 6px 11px;
+    border-radius: 10px;
 }
 .change-icon {
     width: 20px;
@@ -54,13 +53,13 @@ body {
 }
 .dropdown-select {
     background-color: #e7e5e5;
-    border-radius: 5px;
-    padding: 8px 12px;
+    border-radius: 10px;
+    padding: 3.5px 12px;
 }
 select {
     border: 0;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: #000;
     background-color: transparent;
     width: 75px;
@@ -90,10 +89,10 @@ select:focus {
 }
 #calendarIcon #dateCal {
     position: absolute;
-    width: 36px;
+    width: 52px;
     height: 26px;
     top: 0;
-    left: 0;
+    right: 0;
     opacity: 0;
 }
 .mr-3 {
@@ -110,10 +109,11 @@ select:focus {
     background-color: #e7e5e5;
     border: 1px solid #e7e5e5;
     color: #000;
-    padding: 5px 9px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 600;
+    padding: 5px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
 }
 .cursor-pointer {
     cursor: pointer;
