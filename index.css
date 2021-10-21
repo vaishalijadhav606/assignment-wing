@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 20px;
+    /* background-color: gray; */
+}
+.main-container {
+    background-color: #fff;
+    width: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px #7c7272;
+    justify-content: space-between;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fff;
+}
+.input-field {
+    margin: 0 10px;
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+    border: 0;
+}
+.input-field:focus {
+    outline: none;
+}
+.input-filed:placeholder {
+    color: #ccc;
+}
+.change-icon-container {
+    background-color: #e7e5e5;
+    margin-right: 10px;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+.change-icon {
+    width: 20px;
+    height: 20px;
+}
+.flex {
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.color-container {
+    width: 20px;
+    height: 20px;
+    background-color: #e7e5e5;
+    border-radius: 5px;
+}
+.dropdown-select {
+    background-color: #e7e5e5;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+select {
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    background-color: transparent;
+    width: 75px;
+}
+select:focus {
+    outline: none;
+}
+.color-picker {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+.gray {
+    background-color: #e7e5e5;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+#calendarIcon {
+    position: relative;
+}
+#calendarIcon #dateCal {
+    position: absolute;
+    width: 36px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.mr-3 {
+    margin-right: 16px;
+}
+.normal-text {
+    font-size: 20px; 
+    font-weight: 400;
+}
+.d-none{
+    display: none;
+}
+.add-btn {
+    background-color: #e7e5e5;
+    border: 1px solid #e7e5e5;
+    color: #000;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+select option:hover {
+    background-color: yellow;
+  }

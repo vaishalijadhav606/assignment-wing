@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Wing - AI</title>
+    <link href="./index.css" rel="stylesheet" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="main-container flex items-center" id="conatinermain">
+      <div class="flex items-center">
+        <div class="color-container">
+          <select
+            id="colorPicker"
+            value="colorVal"
+            class="cursor-pointer"
+            onChange="getPickerValue(value)"
+          >
+            <option default disabled class="color-picker gray"></option>
+            <option value="red" class="color-picker red"></option>
+            <option value="yellow" class="color-picker yellow"></option>
+            <option value="green" class="color-picker green"></option>
+          </select>
+        </div>
+        <input type="text" id='newItem' placeholder="Write a new task" class="input-field" />
+        <textarea id="textareaItem" class="d-none input-field" placeholder="Write a new task" style="border: 1px solid #ccc;"></textarea>
+      </div>
+      <div class="flex items-center justify-center">
+          <div class="change-icon-container flex items-center cursor-pointer" id="calendarIcon">
+              <input type="date" id="dateCal"/>
+              <img
+              class="change-icon"
+              src="https://www.pngfind.com/pngs/m/106-1067742_calendar-icon-png-transparent-calendar-line-icon-png.png"
+              />
+        </div>
+        <button id='addTaskButton' class="mr-3 add-btn cursor-pointer" onclick="addTask()">Add</button>
+        <div class="change-icon-container flex items-center cursor-pointer" id="toggleicon" onclick="toggleIcon()">
+          <img
+            class="change-icon"
+            src="https://pic.onlinewebfonts.com/svg/img_233156.png"
+          />
+        </div>
+        <div class="dropdown-select" id="dropdown-select">
+          <select class="cursor-pointer" id="listeditem">
+            <option default>No list</option>
+            <option>List 1</option>
+            <option>List 2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 20px; font-size: 25px; font-weight: 700;">
+        <div>To Do List</div>
+        <ul id='toDo'>
+            <!-- <li class="normal-text">
+                <label class="mr-3"></label>
+                <span></span>
+            </li> -->
+        </ul>
+    </div>
+  </body>
+</html>
